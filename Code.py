@@ -63,6 +63,20 @@ def calculate_cost(orders):
     return int(total_cost)
 #Agregar parte de jorge aqui
 
+def confirm_order(orders):
+    print("\nOrder Confirmation:")
+    for meal, quantity in orders.items():
+        print(f"{meal}: {quantity}")
+    total_cost = calculate_cost(orders)
+    if total_cost == -1:
+        return -1
+    print(f"Total Cost: ${total_cost}")
+    confirmation = input("Confirm order? (Y/N): ")
+    if confirmation.upper() == 'Y':
+        return total_cost
+    else:
+        print("Order canceled.")
+        return -1
 
 #Parte de Yonkani
 def dining_experience_manager():
