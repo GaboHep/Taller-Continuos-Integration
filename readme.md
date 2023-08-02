@@ -53,12 +53,15 @@ This will create the `features` folder and necessary files to start writing your
 ## Acceptance Added
 
 -Menu and Meal Selection 
+
 ![Tool Configuration](img/img3.jpg)
+
 ![Tool Configuration](img/img4.jpg)
 
 -Meal Quantity Validation 
 
 ![Tool Configuration](img/img5.jpg)
+
 ![Tool Configuration](img/img6.jpg)
 
 -Cost Calculation 
@@ -71,8 +74,10 @@ This will create the `features` folder and necessary files to start writing your
 ![Tool Configuration](img/img9.jpg)
 ![Tool Configuration](img/img10.jpg)
 
+
 -Execution  ```behave --format=json --outfile=result.json ```
 ![Tool Configuration](img/img11.jpg)
+
 
 -File result.json 
 ![Tool Configuration](img/img12.jpg)
