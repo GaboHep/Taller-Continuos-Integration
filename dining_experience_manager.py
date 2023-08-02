@@ -1,3 +1,4 @@
+#Parte de freddy
 import sys
 
 # Menu with meal options and prices
@@ -25,6 +26,7 @@ def validate_quantity(quantity):
     except ValueError:
         print("Invalid quantity. Please enter a positive integer greater than zero.")
         return None
+#Parte Gabriel 
 def calculate_cost(orders):
     total_cost = 0
     total_quantity = 0
@@ -61,8 +63,7 @@ def calculate_cost(orders):
         total_cost *= 1.05
 
     return int(total_cost)
-#Agregar parte de jorge aqui
-
+#Jorge
 def confirm_order(orders):
     print("\nOrder Confirmation:")
     for meal, quantity in orders.items():
@@ -77,8 +78,7 @@ def confirm_order(orders):
     else:
         print("Order canceled.")
         return -1
-
-#Parte de Yonkani
+#Yonkani
 def dining_experience_manager():
     print("Welcome to the Dining Experience Manager!")
     display_menu()
