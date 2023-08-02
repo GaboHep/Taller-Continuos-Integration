@@ -96,5 +96,8 @@ behave --format=json --outfile=result.json
 ![Special Offer Discount](img/img11.jpg)
 
 The results will be saved in the `result.json` file.
+
+
+
 ![Special Offer Discount](img/img12.jpg)
 
