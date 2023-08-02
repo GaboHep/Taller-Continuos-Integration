@@ -8,10 +8,8 @@ This project aims to create a Dining Experience Manager application that allows 
 
 ## Installing Behave
 
-To run the tests for this project, you need to install Behave, a popular behavior-driven development (BDD) framework for Python. Follow these steps to install Behave:
-
-1. Open your terminal or command prompt.
-2. Use pip to install Behave:
+![Behave](img/img2.jpg)
+Use pip to install Behave:
    ```
    pip install behave
    ```
@@ -52,17 +50,23 @@ This will create the `features` folder and necessary files to start writing your
 - If the total cost of the meal order exceeds $50, apply a discount of $10 to the total cost.
 - If the total cost of the meal order exceeds $100, apply a discount of $25 to the total cost.
 
-## Acceptance Criteria
+## Acceptance Added
 
-The project should fulfill the following acceptance criteria:
+-Menu and Meal Selection 
+![Tool Configuration](img/img3.jpg)
+![Tool Configuration](img/img4.jpg)
+-Meal Quantity Validation 
+![Tool Configuration](img/img5.jpg)
+![Tool Configuration](img/img6.jpg)
+-Cost Calculation 
+![Tool Configuration](img/img7.jpg)
+![Tool Configuration](img/img8.jpg)
+-Special Offer Discount
+![Tool Configuration](img/img9.jpg)
+![Tool Configuration](img/img10.jpg)
+-Execution  behave --format=json --outfile=result.json 
+![Tool Configuration](img/img11.jpg)
+-File result.json 
+![Tool Configuration](img/img12.jpg)
 
-- Users can see the menu with dining options and prices.
-- Users can select multiple meals and specify the quantity for each.
-- The system validates the entered quantity for each meal.
-- If invalid quantities are entered, users are prompted to re-enter the quantities.
-- The system calculates the total cost of the order, including any applicable discounts.
-- If the total quantity of meals ordered is more than 5, the system applies a 10% discount.
-- If the total quantity of meals ordered is more than 10, the system applies a 20% discount.
-- The system can apply special offer discounts if the total cost exceeds $50 or $100.
 
-Feel free to modify this Readme as you add more details or implement additional features to the Dining Experience Manager application. Happy coding!
