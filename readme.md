@@ -4,7 +4,7 @@ This project aims to create a Dining Experience Manager application that allows 
 
 ## Tool Configuration
 
-![Tool Configuration](link_to_tool_configuration_image)
+![Tool Configuration](img/img1)
 
 ## Installing Behave
 
